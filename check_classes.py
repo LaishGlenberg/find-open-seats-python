@@ -25,7 +25,7 @@ health_thread.start()
 
 
 CHECK_INTERVAL_MINUTES = 8  # How often to check
-TOPIC = 'asu-alerts'  # ntfy topic
+TOPIC = ''  # ntfy topic
 MAX_NOTIFICATIONS_PER_CLASS = 6  # Total notifications (every hour) before stopping
 
 CLASS_SEARCH_NAME = ['CSE 486']  # Add more as needed
